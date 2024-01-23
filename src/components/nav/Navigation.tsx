@@ -2,6 +2,7 @@ import { Flex, Menu, MenuButton, MenuItem, MenuList, Text, Button } from '@chakr
 import React from 'react'
 import { DownArrowIcon } from '../icons/downArrow'
 
+
 type nav={
     name: string,
     more: boolean,

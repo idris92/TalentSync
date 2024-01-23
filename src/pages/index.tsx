@@ -350,7 +350,7 @@ export default function Home() {
                         </Flex>
                   </Flex>
                   {/* footer end */}
-                  <Flex w='100%' p='48px 160px' w='100%' bg='gray.50' justifyContent='space-between' alignItems='center'>
+                  <Flex w='100%' p='48px 160px'  bg='gray.50' justifyContent='space-between' alignItems='center'>
                         <Text fontSize='16px' fontWeight='400' color='gray.500'>© 2023 ClearLink. All rights reserved.</Text>
                         <Flex gap='24px'>
                               <LinkedIcon boxSize='24px' cursor='pointer'/>
@@ -365,5 +365,6 @@ export default function Home() {
             </Flex>
       </Flex>
   )
+  
 }
 
