@@ -99,7 +99,9 @@ export default function Home() {
                                           <Flex gap='4px'>
                                           {
                                                 [1,1,1,1,1].map((value, index)=>(
-                                                      <StarIcon boxSize='20px'/>
+                                                      <Flex key={index} p='0px'>
+                                                            <StarIcon boxSize='20px'/>
+                                                      </Flex>
                                                 
                                                 ))
                                           }
@@ -190,7 +192,7 @@ export default function Home() {
                                                 <CalendarIcon size='24px' color='blue.700'/>
                                           </Flex>
                                           <Text wordBreak='break-all' color='gray.900' fontSize='24px' fontWeight='600'>Scheduling made easy</Text>
-                                          <Text  color='gray.600' fontSize='18px' fontWeight='400'>Streamline your agenda with ClearLink's intuitive scheduling. Set up meetings, send invitations, and receive reminders in one place.</Text>         
+                                          <Text  color='gray.600' fontSize='18px' fontWeight='400'>{`Streamline your agenda with ClearLink's intuitive scheduling. Set up meetings, send invitations, and receive reminders in one place.`}</Text>         
                                     </Flex>
                                     <Flex  justifyContent='flex-start' direction='column'>
                                           <Flex boxSize='56px' justifyContent='center' alignItems='center' bg='gray.50' borderRadius='100px'>
@@ -217,7 +219,9 @@ export default function Home() {
                               <Flex gap='4px'>
                                     {
                                           [1,1,1,1,1].map((value, index)=>(
-                                                <StarIcon boxSize='20px'/>
+                                                <Flex key={index} p='0'>
+                                                      <StarIcon boxSize='20px'/>
+                                                </Flex>
                                           
                                           ))
                                     }
