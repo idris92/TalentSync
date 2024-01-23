@@ -99,7 +99,9 @@ export default function Home() {
                                           <Flex gap='4px'>
                                           {
                                                 [1,1,1,1,1].map((value, index)=>(
-                                                      <StarIcon boxSize='20px'/>
+                                                      <Flex key={index} p='0px'>
+                                                            <StarIcon boxSize='20px'/>
+                                                      </Flex>
                                                 
                                                 ))
                                           }
@@ -217,7 +219,9 @@ export default function Home() {
                               <Flex gap='4px'>
                                     {
                                           [1,1,1,1,1].map((value, index)=>(
-                                                <StarIcon boxSize='20px'/>
+                                                <Flex key={index} p='0'>
+                                                      <StarIcon boxSize='20px'/>
+                                                </Flex>
                                           
                                           ))
                                     }
